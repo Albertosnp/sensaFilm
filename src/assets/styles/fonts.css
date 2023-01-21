@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'OpenSans_regular';
+  src: url('./fonts/OpenSans-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans_bold';
+  src: url('./fonts/OpenSans-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+html body * {
+  font-family: 'OpenSans_regular';
+  line-height: 1;
+}
