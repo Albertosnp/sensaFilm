@@ -7,7 +7,7 @@ interface UseGetMovieProps {
 }
 
 export const useGetMovie = ({ idMovie }: UseGetMovieProps) => {
-  const [movie, setMovie] = useState<MovieDetailI[] | null>(null);
+  const [movie, setMovie] = useState<MovieDetailI | null>(null);
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
@@ -20,7 +20,7 @@ export const useGetMovie = ({ idMovie }: UseGetMovieProps) => {
       .then((res) => {
         if (!cancelled) return;
 
-        setMovie(movie);
+        setMovie(res);
         setLoading(false);
       })
       .catch((err) => console.error(err));
