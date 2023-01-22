@@ -32,6 +32,7 @@ export const HomeLayout = () => {
                 title={title}
                 image={poster_path ?? ''}
                 vote_average={vote_average}
+                path="detailMovie"
               />
             ))}
           {!toggleCategory &&
@@ -43,6 +44,7 @@ export const HomeLayout = () => {
                   title={name}
                   image={poster_path ?? ''}
                   vote_average={vote_average}
+                  path="detailTv"
                 />
               )
             )}

@@ -7,15 +7,21 @@ const Home = lazy(() =>
     default: module.Home,
   }))
 );
-const About = lazy(() =>
-  import('@/features/about').then((module) => ({
-    default: module.About,
+const DetailTv = lazy(() =>
+  import('@/features/detailTv').then((module) => ({
+    default: module.DetailTv,
+  }))
+);
+const DetailMovie = lazy(() =>
+  import('@/features/detailMovie').then((module) => ({
+    default: module.DetailMovie,
   }))
 );
 
 export const ROUTE_PATHS = {
   HOME: '/',
-  ABOUT: '/about',
+  TV_DETAIL: '/detailTv/:idTv',
+  MOVIE_DETAIL: '/detailMovie/:idMovie',
 };
 
 export const AppRoutes = () => {
@@ -23,7 +29,8 @@ export const AppRoutes = () => {
     <Routes>
       <Route path={ROUTE_PATHS.HOME} element={<Layout />}>
         <Route path={ROUTE_PATHS.HOME} element={<Home />} />
-        <Route path={ROUTE_PATHS.ABOUT} element={<About />} />
+        <Route path={ROUTE_PATHS.TV_DETAIL} element={<DetailTv />} />
+        <Route path={ROUTE_PATHS.MOVIE_DETAIL} element={<DetailMovie />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Route>
     </Routes>
