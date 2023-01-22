@@ -1,22 +1,15 @@
-import { GenericCard, InputSwitch, SkeletonCard } from '@/components';
+import { GenericCard, SkeletonCard } from '@/components';
 import { useCallback, useState } from 'react';
 import { useGetPopularMovies } from '../../hooks/useGetPopularMovies';
 import { useGetPopularTvPrograms } from '../../hooks/useGetPopularTvPrograms';
-
-import imgTv from '@/assets/img/television.png';
-import imgVideo from '@/assets/img/video.png';
+import { HomeHeader } from '../HomeHeader/HomeHeader';
 
 import HomeLayoutStyled from './HomeLayout.styled';
 
-const TITLES = {
-  movies: 'Películas destacadas',
-  tv: 'Tv',
-};
-
 export const HomeLayout = () => {
+  const [toggleCategory, setToggleCategory] = useState(true);
   const { popularMovies } = useGetPopularMovies();
   const { popularTvPrograms } = useGetPopularTvPrograms();
-  const [toggleCategory, setToggleCategory] = useState(true);
 
   const handleToggleCategory = useCallback(() => {
     setToggleCategory((prev) => !prev);
@@ -24,21 +17,10 @@ export const HomeLayout = () => {
 
   return (
     <HomeLayoutStyled className="HomeLayout">
-      <div className="HomeLayout__header">
-        <h3 className="HomeLayout__header__title">
-          {toggleCategory ? TITLES.movies : TITLES.tv}
-        </h3>
-        <div className="HomeLayout__header__buttons">
-          <img src={imgVideo} className="HomeLayout__header__buttons__img" />
-          <InputSwitch
-            name=""
-            onHandleValueActive={handleToggleCategory}
-            checked={false}
-            value={''}
-          />
-          <img src={imgTv} className="HomeLayout__header__buttons__img" />
-        </div>
-      </div>
+      <HomeHeader
+        toggleCategory={toggleCategory}
+        handleToggleCategory={handleToggleCategory}
+      />
 
       {popularMovies && (
         <section className="HomeLayout__grid">
@@ -56,7 +38,7 @@ export const HomeLayout = () => {
             popularTvPrograms?.map(
               ({ id, poster_path, name, vote_average }) => (
                 <GenericCard
-                  key={`${id}-movie`}
+                  key={`${id}-tv`}
                   id={id}
                   title={name}
                   image={poster_path ?? ''}

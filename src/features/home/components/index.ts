@@ -1,3 +1,4 @@
+import { HomeHeader } from './HomeHeader/HomeHeader';
 import { HomeLayout } from './HomeLayout/HomeLayout';
 
-export { HomeLayout };
+export { HomeLayout, HomeHeader };
