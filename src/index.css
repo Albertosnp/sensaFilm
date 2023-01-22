@@ -13,6 +13,8 @@ body {
   height: -webkit-fill-available;
   display: flex;
   flex-direction: column;
+  background-color: #232228;
+
 }
 
 body > :root {
@@ -20,6 +22,7 @@ body > :root {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: #232228;
 }
 
 code {
