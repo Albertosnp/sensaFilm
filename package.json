@@ -21,7 +21,7 @@
     "react-i18next": "^11.16.9",
     "react-query": "^3.39.1",
     "react-router-dom": "^6.3.0",
-    "swiper": "^8.4.6"
+    "swiper": "8.2.3"
   },
   "devDependencies": {
     "@types/node": "^17.0.40",

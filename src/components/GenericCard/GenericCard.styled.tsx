@@ -9,8 +9,7 @@ const GenericCardStyled = styled.figure`
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   transition: transform 0.5s;
   margin: 0 auto;
-  width: 300px;
-  height: 450px;
+  /* height: 450px; */
   align-self: center;
 
   :hover {
@@ -31,11 +30,12 @@ const GenericCardStyled = styled.figure`
     }
 
     &__image {
-      height: 80%;
+      height: 100%;
       width: 100%;
       object-fit: cover;
       border-radius: 25px 25px 0 0;
       flex: 1 1 auto;
+      max-height: 400px;
     }
 
     &__footer {

@@ -13,7 +13,7 @@ export const DetailMovie = () => {
     <main>
       {movie && (
         <DetailLayout {...movie}>
-          {
+          {movies && movies.length > 0 && (
             <Carousel>
               {movies?.map(({ id, poster_path, title, vote_average }) => (
                 <SwiperSlide key={`${id}-movie`}>
@@ -23,12 +23,12 @@ export const DetailMovie = () => {
                     title={title}
                     image={poster_path ?? ''}
                     vote_average={vote_average}
-                    path="detailMovie"
+                    path="/detailMovie"
                   />
                 </SwiperSlide>
               ))}
             </Carousel>
-          }
+          )}
         </DetailLayout>
       )}
     </main>
