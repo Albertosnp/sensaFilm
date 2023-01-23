@@ -3,7 +3,7 @@ import { getPopularTvPrograms } from '../api/getPopularTvPrograms';
 import { TvProgramI } from '@/types';
 
 export const useGetPopularTvPrograms = () => {
-  const [popularTvPrograms, setPopularTvProgramss] = useState<
+  const [popularTvPrograms, setPopularTvPrograms] = useState<
     TvProgramI[] | null
   >(null);
   const [loading, setLoading] = useState(false);
@@ -18,7 +18,7 @@ export const useGetPopularTvPrograms = () => {
 
         const tvPrograms = res?.results;
 
-        setPopularTvProgramss(tvPrograms);
+        setPopularTvPrograms(tvPrograms);
         setLoading(false);
       })
       .catch((err) => console.error(err));

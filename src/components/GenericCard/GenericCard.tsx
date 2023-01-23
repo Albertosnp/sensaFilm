@@ -6,12 +6,19 @@ interface GenericCardProps {
   image: string;
   title: string;
   vote_average: number;
+  path: string;
   id: number;
 }
-const GenericCard = ({ image, title, vote_average, id }: GenericCardProps) => {
+const GenericCard = ({
+  image,
+  title,
+  vote_average,
+  id,
+  path,
+}: GenericCardProps) => {
   return (
     <GenericCardStyled className="GenericCard">
-      <Link to="" className="GenericCard__link">
+      <Link to={`${path}/${id}`} className="GenericCard__link">
         <img
           className="GenericCard__image"
           src={`https://image.tmdb.org/t/p/w500/${image}`}
