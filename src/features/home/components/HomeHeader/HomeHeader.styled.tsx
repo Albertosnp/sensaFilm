@@ -8,22 +8,6 @@ const HomeHeaderStyled = styled.div`
   align-items: center;
   padding-bottom: 40px;
   .HomeHeader {
-    &__title {
-      color: #e9e8e8;
-      font-size: ${rem(32)};
-      font-weight: 600;
-      position: relative;
-      ::after {
-        content: '';
-        position: absolute;
-        background-color: #c5a100;
-        width: 40px;
-        bottom: -20px;
-        left: 0;
-        padding: 3px;
-      }
-    }
-
     &__buttons {
       display: flex;
       justify-content: center;

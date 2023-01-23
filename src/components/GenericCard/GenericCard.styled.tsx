@@ -8,6 +8,10 @@ const GenericCardStyled = styled.figure`
   background-color: #e6e6e6;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   transition: transform 0.5s;
+  margin: 0 auto;
+  width: 300px;
+  height: 450px;
+  align-self: center;
 
   :hover {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
@@ -15,6 +19,7 @@ const GenericCardStyled = styled.figure`
       rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
     transform: scale(1.1);
+    z-index: 1;
   }
 
   .GenericCard {

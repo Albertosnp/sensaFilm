@@ -1,4 +1,4 @@
-import { InputSwitch } from '@/components';
+import { CategoryTitle, InputSwitch } from '@/components';
 import HomeHeaderStyled from './HomeHeader.styled';
 
 import imgTv from '@/assets/img/television.png';
@@ -20,9 +20,9 @@ export const HomeHeader = ({
 }: HomeHeaderProps) => {
   return (
     <HomeHeaderStyled className="HomeHeader">
-      <h3 className="HomeHeader__title">
+      <CategoryTitle>
         {toggleCategory ? TITLES.movies : TITLES.tv}
-      </h3>
+      </CategoryTitle>
       <div className="HomeHeader__buttons">
         <img src={imgVideo} className="HomeHeader__buttons__img" />
         <InputSwitch
