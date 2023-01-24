@@ -4,9 +4,9 @@ export const SkeletonCard = (props: any) => {
   return (
     <ContentLoader
       speed={3}
-      width={'370'}
+      width={'300px'}
       height={'100%'}
-      viewBox="0 0 400 460"
+      viewBox="0 0 300 460"
       backgroundColor="#acacac"
       foregroundColor="#ecebeb"
       {...props}
