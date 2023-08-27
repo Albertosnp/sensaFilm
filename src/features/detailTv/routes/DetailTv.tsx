@@ -1,8 +1,8 @@
-import { useParams } from 'react-router-dom';
-import { SwiperSlide } from 'swiper/react';
-import { Carousel, DetailLayout, GenericCard } from '@/components';
-import { useGetSimilarTv } from '../hooks/useGetSimilarTv';
-import { useGetTv } from '../hooks/useGetTv';
+import { useParams } from "react-router-dom";
+import { SwiperSlide } from "swiper/react";
+import { Carousel, DetailLayout, GenericCard } from "@/components";
+import { useGetSimilarTv } from "../hooks/useGetSimilarTv";
+import { useGetTv } from "../hooks/useGetTv";
 
 export const DetailTv = () => {
   const { idTv } = useParams();
@@ -20,7 +20,7 @@ export const DetailTv = () => {
                   <GenericCard
                     id={id}
                     title={name}
-                    image={poster_path ?? ''}
+                    image={poster_path ?? ""}
                     vote_average={vote_average}
                     path={`/detailTv`}
                   />

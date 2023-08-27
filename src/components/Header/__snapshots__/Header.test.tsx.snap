@@ -1,0 +1,15 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Header > Should match snapshot 1`] = `
+<div>
+  <header
+    class="header css-segxi8"
+  >
+    <h1
+      class="header__title"
+    >
+      SensaFILM
+    </h1>
+  </header>
+</div>
+`;

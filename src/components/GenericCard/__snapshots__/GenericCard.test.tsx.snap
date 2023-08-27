@@ -1,0 +1,34 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`GenericCard > Should match snapshot 1`] = `
+<div>
+  <figure
+    class="GenericCard css-1sbhet6"
+  >
+    <a
+      href="path/1"
+    >
+      <img
+        alt="imagen-picture"
+        class="GenericCard__image"
+        src="https://image.tmdb.org/t/p/w500/https://image.tmdb.org/t/p/w500"
+      />
+      <div
+        class="GenericCard__footer"
+      >
+        <p
+          class="GenericCard__footer__title"
+        >
+          title
+        </p>
+        <span
+          class="GenericCard__footer__votes"
+        >
+          99
+          /10
+        </span>
+      </div>
+    </a>
+  </figure>
+</div>
+`;

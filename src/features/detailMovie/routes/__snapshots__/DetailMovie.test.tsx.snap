@@ -1,0 +1,352 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`DetailMovie > Should match snapshot 1`] = `
+<div>
+  <main>
+    <section
+      class="DetailLayout css-x3l6mn"
+    >
+      <div
+        class="DetailLayout__gradient"
+      />
+      <article
+        class="DetailLayout__info"
+      >
+        <img
+          class="DetailLayout__info__imgPoster"
+          src="https://image.tmdb.org/t/p/w500//6oH378KUfCEitzJkm07r97L0RsZ.jpg"
+        />
+        <div
+          class="DetailLayout__info__detailsBlock"
+        >
+          <h3
+            class="DetailLayout__info__detailsBlock__title"
+          >
+            Elemental
+          </h3>
+          <h6
+            class="DetailLayout__detailTitle"
+          >
+            Sinopsis:
+          </h6>
+          <p
+            class="DetailLayout__info__detailsBlock__overview"
+          >
+            En una ciudad donde los residentes del fuego, el agua, la tierra y el aire viven juntos, una joven apasionada y un chico que se deja llevar por la corriente descubrirán algo elemental: cuánto tienen en común.
+          </p>
+        </div>
+      </article>
+      <div
+        class="Carousel css-ftttuy"
+      >
+        <div
+          class="swiper swiper-initialized swiper-horizontal slider"
+        >
+          <div
+            class="swiper-wrapper"
+            style="transition-duration: 0ms; transform: translate3d(NaNpx, 0px, 0px);"
+          >
+            <div
+              class="swiper-slide swiper-slide-duplicate"
+              data-swiper-slide-index="0"
+            >
+              <figure
+                class="GenericCard css-1sbhet6"
+              >
+                <a
+                  href="/detailMovie/1158004"
+                >
+                  <img
+                    alt="imagen-picture"
+                    class="GenericCard__image"
+                    src="https://image.tmdb.org/t/p/w500/"
+                  />
+                  <div
+                    class="GenericCard__footer"
+                  >
+                    <p
+                      class="GenericCard__footer__title"
+                    >
+                      Careless Reef: Part 2: Abu Kiffan
+                    </p>
+                    <span
+                      class="GenericCard__footer__votes"
+                    >
+                      0
+                      /10
+                    </span>
+                  </div>
+                </a>
+              </figure>
+            </div>
+            <div
+              class="swiper-slide swiper-slide-duplicate"
+              data-swiper-slide-index="1"
+            >
+              <figure
+                class="GenericCard css-1sbhet6"
+              >
+                <a
+                  href="/detailMovie/1148993"
+                >
+                  <img
+                    alt="imagen-picture"
+                    class="GenericCard__image"
+                    src="https://image.tmdb.org/t/p/w500//xzQS1AeZAuhJZdQa5bko0GDnAsx.jpg"
+                  />
+                  <div
+                    class="GenericCard__footer"
+                  >
+                    <p
+                      class="GenericCard__footer__title"
+                    >
+                      Bug Fixed
+                    </p>
+                    <span
+                      class="GenericCard__footer__votes"
+                    >
+                      0
+                      /10
+                    </span>
+                  </div>
+                </a>
+              </figure>
+            </div>
+            <div
+              class="swiper-slide swiper-slide-duplicate"
+              data-swiper-slide-index="2"
+            >
+              <figure
+                class="GenericCard css-1sbhet6"
+              >
+                <a
+                  href="/detailMovie/1146585"
+                >
+                  <img
+                    alt="imagen-picture"
+                    class="GenericCard__image"
+                    src="https://image.tmdb.org/t/p/w500//qzIi2wjm3mMWm4GNJzolF9E3zuR.jpg"
+                  />
+                  <div
+                    class="GenericCard__footer"
+                  >
+                    <p
+                      class="GenericCard__footer__title"
+                    >
+                      منتصف الليل
+                    </p>
+                    <span
+                      class="GenericCard__footer__votes"
+                    >
+                      10
+                      /10
+                    </span>
+                  </div>
+                </a>
+              </figure>
+            </div>
+            <div
+              class="swiper-slide"
+              data-swiper-slide-index="0"
+            >
+              <figure
+                class="GenericCard css-1sbhet6"
+              >
+                <a
+                  href="/detailMovie/1158004"
+                >
+                  <img
+                    alt="imagen-picture"
+                    class="GenericCard__image"
+                    src="https://image.tmdb.org/t/p/w500/"
+                  />
+                  <div
+                    class="GenericCard__footer"
+                  >
+                    <p
+                      class="GenericCard__footer__title"
+                    >
+                      Careless Reef: Part 2: Abu Kiffan
+                    </p>
+                    <span
+                      class="GenericCard__footer__votes"
+                    >
+                      0
+                      /10
+                    </span>
+                  </div>
+                </a>
+              </figure>
+            </div>
+            <div
+              class="swiper-slide"
+              data-swiper-slide-index="1"
+            >
+              <figure
+                class="GenericCard css-1sbhet6"
+              >
+                <a
+                  href="/detailMovie/1148993"
+                >
+                  <img
+                    alt="imagen-picture"
+                    class="GenericCard__image"
+                    src="https://image.tmdb.org/t/p/w500//xzQS1AeZAuhJZdQa5bko0GDnAsx.jpg"
+                  />
+                  <div
+                    class="GenericCard__footer"
+                  >
+                    <p
+                      class="GenericCard__footer__title"
+                    >
+                      Bug Fixed
+                    </p>
+                    <span
+                      class="GenericCard__footer__votes"
+                    >
+                      0
+                      /10
+                    </span>
+                  </div>
+                </a>
+              </figure>
+            </div>
+            <div
+              class="swiper-slide"
+              data-swiper-slide-index="2"
+            >
+              <figure
+                class="GenericCard css-1sbhet6"
+              >
+                <a
+                  href="/detailMovie/1146585"
+                >
+                  <img
+                    alt="imagen-picture"
+                    class="GenericCard__image"
+                    src="https://image.tmdb.org/t/p/w500//qzIi2wjm3mMWm4GNJzolF9E3zuR.jpg"
+                  />
+                  <div
+                    class="GenericCard__footer"
+                  >
+                    <p
+                      class="GenericCard__footer__title"
+                    >
+                      منتصف الليل
+                    </p>
+                    <span
+                      class="GenericCard__footer__votes"
+                    >
+                      10
+                      /10
+                    </span>
+                  </div>
+                </a>
+              </figure>
+            </div>
+            <div
+              class="swiper-slide swiper-slide-duplicate"
+              data-swiper-slide-index="0"
+            >
+              <figure
+                class="GenericCard css-1sbhet6"
+              >
+                <a
+                  href="/detailMovie/1158004"
+                >
+                  <img
+                    alt="imagen-picture"
+                    class="GenericCard__image"
+                    src="https://image.tmdb.org/t/p/w500/"
+                  />
+                  <div
+                    class="GenericCard__footer"
+                  >
+                    <p
+                      class="GenericCard__footer__title"
+                    >
+                      Careless Reef: Part 2: Abu Kiffan
+                    </p>
+                    <span
+                      class="GenericCard__footer__votes"
+                    >
+                      0
+                      /10
+                    </span>
+                  </div>
+                </a>
+              </figure>
+            </div>
+            <div
+              class="swiper-slide swiper-slide-duplicate"
+              data-swiper-slide-index="1"
+            >
+              <figure
+                class="GenericCard css-1sbhet6"
+              >
+                <a
+                  href="/detailMovie/1148993"
+                >
+                  <img
+                    alt="imagen-picture"
+                    class="GenericCard__image"
+                    src="https://image.tmdb.org/t/p/w500//xzQS1AeZAuhJZdQa5bko0GDnAsx.jpg"
+                  />
+                  <div
+                    class="GenericCard__footer"
+                  >
+                    <p
+                      class="GenericCard__footer__title"
+                    >
+                      Bug Fixed
+                    </p>
+                    <span
+                      class="GenericCard__footer__votes"
+                    >
+                      0
+                      /10
+                    </span>
+                  </div>
+                </a>
+              </figure>
+            </div>
+            <div
+              class="swiper-slide swiper-slide-duplicate"
+              data-swiper-slide-index="2"
+            >
+              <figure
+                class="GenericCard css-1sbhet6"
+              >
+                <a
+                  href="/detailMovie/1146585"
+                >
+                  <img
+                    alt="imagen-picture"
+                    class="GenericCard__image"
+                    src="https://image.tmdb.org/t/p/w500//qzIi2wjm3mMWm4GNJzolF9E3zuR.jpg"
+                  />
+                  <div
+                    class="GenericCard__footer"
+                  >
+                    <p
+                      class="GenericCard__footer__title"
+                    >
+                      منتصف الليل
+                    </p>
+                    <span
+                      class="GenericCard__footer__votes"
+                    >
+                      10
+                      /10
+                    </span>
+                  </div>
+                </a>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+`;

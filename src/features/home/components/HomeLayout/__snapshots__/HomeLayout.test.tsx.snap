@@ -1,0 +1,137 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`HomeLayout > Should match snapshot with data 1`] = `
+<div>
+  <div
+    class="HomeLayout css-n9kgpy"
+  >
+    <div
+      class="HomeHeader css-hn9zvr"
+    >
+      <h3
+        class="CategoryTitle css-ncm7rz"
+      >
+        Películas destacadas
+      </h3>
+      <div
+        class="HomeHeader__buttons"
+      >
+        <img
+          class="HomeHeader__buttons__img"
+          src="/src/assets/img/video.png"
+        />
+        <div
+          class="inputSwitch css-1rzg66u"
+        >
+          <label
+            class="inputSwitch__label"
+          >
+            <input
+              class="inputSwitch__input"
+              id="-"
+              name=""
+              type="checkbox"
+              value=""
+            />
+            <span
+              class="inputSwitch__label__icon"
+            />
+          </label>
+        </div>
+        <img
+          class="HomeHeader__buttons__img"
+          src="/src/assets/img/television.png"
+        />
+      </div>
+    </div>
+    <section
+      class="HomeLayout__grid"
+    >
+      <figure
+        class="GenericCard css-1sbhet6"
+      >
+        <a
+          href="detailMovie/569094"
+        >
+          <img
+            alt="imagen-picture"
+            class="GenericCard__image"
+            src="https://image.tmdb.org/t/p/w500//37WcNMgNOMxdhT87MFl7tq7FM1.jpg"
+          />
+          <div
+            class="GenericCard__footer"
+          >
+            <p
+              class="GenericCard__footer__title"
+            >
+              Spider-Man: Cruzando el Multiverso
+            </p>
+            <span
+              class="GenericCard__footer__votes"
+            >
+              8.4
+              /10
+            </span>
+          </div>
+        </a>
+      </figure>
+      <figure
+        class="GenericCard css-1sbhet6"
+      >
+        <a
+          href="detailMovie/346698"
+        >
+          <img
+            alt="imagen-picture"
+            class="GenericCard__image"
+            src="https://image.tmdb.org/t/p/w500//fNtqD4BTFj0Bgo9lyoAtmNFzxHN.jpg"
+          />
+          <div
+            class="GenericCard__footer"
+          >
+            <p
+              class="GenericCard__footer__title"
+            >
+              Barbie
+            </p>
+            <span
+              class="GenericCard__footer__votes"
+            >
+              7.4
+              /10
+            </span>
+          </div>
+        </a>
+      </figure>
+      <figure
+        class="GenericCard css-1sbhet6"
+      >
+        <a
+          href="detailMovie/667538"
+        >
+          <img
+            alt="imagen-picture"
+            class="GenericCard__image"
+            src="https://image.tmdb.org/t/p/w500//8HBYMQkF6cFpupgRDhsrrKskXOE.jpg"
+          />
+          <div
+            class="GenericCard__footer"
+          >
+            <p
+              class="GenericCard__footer__title"
+            >
+              Transformers: El despertar de las bestias
+            </p>
+            <span
+              class="GenericCard__footer__votes"
+            >
+              7.5
+              /10
+            </span>
+          </div>
+        </a>
+      </figure>
+    </section>
+  </div>
+</div>
+`;

@@ -1,0 +1,43 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`DetailLayout > Should match snapshot 1`] = `
+<div>
+  <section
+    class="DetailLayout css-s5ahiv"
+  >
+    <div
+      class="DetailLayout__gradient"
+    />
+    <article
+      class="DetailLayout__info"
+    >
+      <img
+        class="DetailLayout__info__imgPoster"
+        src="https://image.tmdb.org/t/p/w500/poster_path"
+      />
+      <div
+        class="DetailLayout__info__detailsBlock"
+      >
+        <h3
+          class="DetailLayout__info__detailsBlock__title"
+        >
+          title
+        </h3>
+        <h6
+          class="DetailLayout__detailTitle"
+        >
+          Sinopsis:
+        </h6>
+        <p
+          class="DetailLayout__info__detailsBlock__overview"
+        >
+          overview
+        </p>
+      </div>
+    </article>
+    <div>
+      children
+    </div>
+  </section>
+</div>
+`;

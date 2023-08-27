@@ -1,10 +1,10 @@
-import { GenericCard, SkeletonCard } from '@/components';
-import { useCallback, useState } from 'react';
-import { useGetPopularMovies } from '../../hooks/useGetPopularMovies';
-import { useGetPopularTvPrograms } from '../../hooks/useGetPopularTvPrograms';
-import { HomeHeader } from '../HomeHeader/HomeHeader';
+import { GenericCard, SkeletonCard } from "@/components";
+import { useCallback, useState } from "react";
+import { useGetPopularMovies } from "../../hooks/useGetPopularMovies";
+import { useGetPopularTvPrograms } from "../../hooks/useGetPopularTvPrograms";
+import { HomeHeader } from "../HomeHeader/HomeHeader";
 
-import HomeLayoutStyled from './HomeLayout.styled';
+import HomeLayoutStyled from "./HomeLayout.styled";
 
 export const HomeLayout = () => {
   const [toggleCategory, setToggleCategory] = useState(true);
@@ -30,7 +30,7 @@ export const HomeLayout = () => {
                 key={`${id}-movie`}
                 id={id}
                 title={title}
-                image={poster_path ?? ''}
+                image={poster_path ?? ""}
                 vote_average={vote_average}
                 path="detailMovie"
               />
@@ -42,7 +42,7 @@ export const HomeLayout = () => {
                   key={`${id}-tv`}
                   id={id}
                   title={name}
-                  image={poster_path ?? ''}
+                  image={poster_path ?? ""}
                   vote_average={vote_average}
                   path="detailTv"
                 />
@@ -51,7 +51,7 @@ export const HomeLayout = () => {
         </section>
       )}
       {!popularMovies && (
-        <section className="HomeLayout__grid">
+        <section className="HomeLayout__grid" data-testid="skeleton">
           {[0, 0, 0, 0, 0, 0].map((skeleton, index) => (
             <SkeletonCard key={`${index}-skeleton`} />
           ))}
