@@ -2,10 +2,6 @@
 
 It is a proof of concept app where the theme is movies and tv series.
 
-#### 🚧 Work in progress 🚧
-
-### `npm run test`
-
 ## Tech-stack
 
 - [Vite](https://vitejs.dev/)
@@ -51,3 +47,5 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
+
+### `npm run test`
