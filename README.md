@@ -4,7 +4,7 @@ It is a proof of concept app where the theme is movies and tv series.
 
 #### 🚧 Work in progress 🚧
 
-Unit tests and end to end tests will be implemented.
+### `npm run test`
 
 ## Tech-stack
 
